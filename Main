@@ -27,7 +27,7 @@ while y is False:
         else:
             y = True
 
-    # If octets contain anything anything aside from an integer, print that octets must contain values 0 - 255
+    # If octets contain anything aside from an integer, print that octets must contain values 0 - 255
 
     except ValueError:
         y = False
